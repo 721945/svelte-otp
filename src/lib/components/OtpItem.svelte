@@ -92,6 +92,7 @@
 	on:keypress={typeHandler}
 	on:input={changeHandler}
 	on:paste={pasteHandler}
+	inputmode={num ? 'numeric' : 'text'}
 	{style}
 	{value}
 	{placeholder}
